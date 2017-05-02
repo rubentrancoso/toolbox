@@ -1,3 +1,6 @@
+# Binary Gap
+
+'''
 package toolbox.BinaryGap;
 
 public class Solution {
@@ -27,3 +30,4 @@ public class Solution {
 		return longest;
 	}
 }
+'''

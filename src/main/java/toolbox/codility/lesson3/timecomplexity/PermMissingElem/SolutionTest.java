@@ -1,6 +1,6 @@
 package toolbox.codility.lesson3.timecomplexity.PermMissingElem;
 
-import static org.junit.Assert.fail;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -31,7 +31,10 @@ public class SolutionTest {
 
 	@Test
 	public void testSolution() {
-		fail("Not yet implemented"); // TODO
+		int[] input = {2,3,1,5};
+		int answer = 4;
+		int result = solution.solution(input);
+		assertEquals(result, answer);
 	}
 
 }

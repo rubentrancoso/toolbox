@@ -30,11 +30,19 @@ public class SolutionTest {
 	}
 
 	@Test
-	public void testSolution() {
+	public void testSolution0() {
 		int[] input = {2,3,1,5};
 		int answer = 4;
 		int result = solution.solution(input);
-		assertEquals(result, answer);
+		assertEquals(answer, result);
 	}
 
+	@Test
+	public void testSolution1() {
+		int[] input = {5,3,4,2};
+		int answer = 1;
+		int result = solution.solution(input);
+		assertEquals(answer, result);
+	}
+	
 }

@@ -1,4 +1,4 @@
-package toolbox.lesson1.iterations.BinaryGap;
+package toolbox.codility.lesson1.iterations.BinaryGap;
 
 public class Solution {
 	

@@ -1,4 +1,4 @@
-package toolbox.lesson3.timecomplexity.PermMissingElem;
+package toolbox.codility.lesson3.timecomplexity.PermMissingElem;
 
 import static org.junit.Assert.fail;
 

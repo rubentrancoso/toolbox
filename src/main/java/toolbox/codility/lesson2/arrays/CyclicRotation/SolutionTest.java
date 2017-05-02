@@ -1,6 +1,6 @@
-package toolbox.lesson2.arrays.OddOccurrencesInArray;
+package toolbox.codility.lesson2.arrays.CyclicRotation;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -11,7 +11,7 @@ import org.junit.Test;
 public class SolutionTest {
 
 	private Solution solution;
-	
+
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
@@ -31,18 +31,19 @@ public class SolutionTest {
 
 	@Test
 	public void testSolution0() {
-		int[] a = {1,2,1};
-		int answer = 2;
-		int result = solution.solution(a);
-		assertEquals(answer, result);
+		int[] a = { 1, 2, 3 };
+		int k = 1;
+		int[] answer = { 3, 1, 2 };
+		int[] result = solution.solution(a, k);
+		assertArrayEquals(answer, result);
 	}
-	
+
 	@Test
 	public void testSolution1() {
-		int[] a = {9, 3, 9, 3, 9, 7, 9};
-		int answer = 7;
-		int result = solution.solution(a);
-		assertEquals(answer, result);
-	}	
-
+		int[] a = { 1, 2, 3, 4, 5 };
+		int k = 5;
+		int[] answer = { 1, 2, 3, 4, 5 };
+		int[] result = solution.solution(a, k);
+		assertArrayEquals(answer, result);
+	}
 }

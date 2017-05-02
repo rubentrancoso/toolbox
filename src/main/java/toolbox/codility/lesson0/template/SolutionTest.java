@@ -1,6 +1,6 @@
-package toolbox.lesson2.arrays.CyclicRotation;
+package toolbox.codility.lesson0.template;
 
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.fail;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -11,7 +11,7 @@ import org.junit.Test;
 public class SolutionTest {
 
 	private Solution solution;
-
+	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
@@ -30,20 +30,8 @@ public class SolutionTest {
 	}
 
 	@Test
-	public void testSolution0() {
-		int[] a = { 1, 2, 3 };
-		int k = 1;
-		int[] answer = { 3, 1, 2 };
-		int[] result = solution.solution(a, k);
-		assertArrayEquals(answer, result);
+	public void testSolution() {
+		fail("Not yet implemented"); // TODO
 	}
 
-	@Test
-	public void testSolution1() {
-		int[] a = { 1, 2, 3, 4, 5 };
-		int k = 5;
-		int[] answer = { 1, 2, 3, 4, 5 };
-		int[] result = solution.solution(a, k);
-		assertArrayEquals(answer, result);
-	}
 }

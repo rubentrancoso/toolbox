@@ -1,6 +1,6 @@
-package toolbox.lesson0.template;
+package toolbox.codility.lesson2.arrays.OddOccurrencesInArray;
 
-import static org.junit.Assert.fail;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -30,8 +30,19 @@ public class SolutionTest {
 	}
 
 	@Test
-	public void testSolution() {
-		fail("Not yet implemented"); // TODO
+	public void testSolution0() {
+		int[] a = {1,2,1};
+		int answer = 2;
+		int result = solution.solution(a);
+		assertEquals(answer, result);
 	}
+	
+	@Test
+	public void testSolution1() {
+		int[] a = {9, 3, 9, 3, 9, 7, 9};
+		int answer = 7;
+		int result = solution.solution(a);
+		assertEquals(answer, result);
+	}	
 
 }

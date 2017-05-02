@@ -8,8 +8,6 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import toolbox.lesson3.timecomplexity.PermMissingElem.Solution;
-
 public class SolutionTest {
 
 	private Solution solution;

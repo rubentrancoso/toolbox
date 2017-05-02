@@ -1,14 +1,12 @@
 package toolbox.lesson2.arrays.CyclicRotation;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
-import toolbox.lesson2.arrays.CyclicRotation.Solution;
 
 public class SolutionTest {
 

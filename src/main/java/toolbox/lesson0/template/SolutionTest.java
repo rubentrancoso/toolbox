@@ -1,6 +1,6 @@
-package toolbox.lesson2.arrays.OddOccurrencesInArray;
+package toolbox.lesson0.template;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -30,19 +30,8 @@ public class SolutionTest {
 	}
 
 	@Test
-	public void testSolution0() {
-		int[] a = {1,2,1};
-		int answer = 2;
-		int result = solution.solution(a);
-		assertEquals(answer, result);
+	public void testSolution() {
+		fail("Not yet implemented"); // TODO
 	}
-	
-	@Test
-	public void testSolution1() {
-		int[] a = {9, 3, 9, 3, 9, 7, 9};
-		int answer = 7;
-		int result = solution.solution(a);
-		assertEquals(answer, result);
-	}	
 
 }

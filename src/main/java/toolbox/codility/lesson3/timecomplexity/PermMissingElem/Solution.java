@@ -14,19 +14,14 @@ import java.util.Arrays;
 
 
 public class Solution {
-	// https://codility.com/demo/results/training5264F7-S2W/
+	// https://codility.com/demo/results/training63QPVJ-Y4X/
 	public int solution(int[] A) {
 		Arrays.sort(A);
-		int result = 0;
+		int result = A.length+1;
 		for(int i=0;i<A.length;i++) {
 			if(A[i] != i+1) {
-				if(i==0) {
-					result = 1;
-					break;
-				} else {
-					result = i+1;
-					break;
-				}
+				result = i+1;
+				break;
 			}
 		}
 		return result;

@@ -1,6 +1,8 @@
 package toolbox.BinaryGap;
 
 public class Solution {
+	
+	// https://codility.com/demo/results/training6GFY64-KUX/
 	public int solution(int N) {
 		// Initialize the longest value and counter to 0
 		int longest = 0;

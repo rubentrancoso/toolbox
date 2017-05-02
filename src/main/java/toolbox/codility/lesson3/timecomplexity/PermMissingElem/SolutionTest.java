@@ -44,5 +44,28 @@ public class SolutionTest {
 		int result = solution.solution(input);
 		assertEquals(answer, result);
 	}
-	
+
+	@Test
+	public void testSolution2() {
+		int[] input = {2};
+		int answer = 1;
+		int result = solution.solution(input);
+		assertEquals(answer, result);
+	}	
+
+	@Test
+	public void testSolution3() {
+		int[] input = {1};
+		int answer = 2;
+		int result = solution.solution(input);
+		assertEquals(answer, result);
+	}	
+
+	@Test
+	public void testSolution4() {
+		int[] input = {};
+		int answer = 1;
+		int result = solution.solution(input);
+		assertEquals(answer, result);
+	}	
 }

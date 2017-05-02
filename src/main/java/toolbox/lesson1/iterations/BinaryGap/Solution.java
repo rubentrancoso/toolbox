@@ -1,4 +1,4 @@
-package toolbox.BinaryGap;
+package toolbox.lesson1.iterations.BinaryGap;
 
 public class Solution {
 	

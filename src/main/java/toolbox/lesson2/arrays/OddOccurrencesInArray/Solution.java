@@ -1,4 +1,4 @@
-package toolbox.OddOccurrencesInArray;
+package toolbox.lesson2.arrays.OddOccurrencesInArray;
 
 import java.util.Arrays;
 

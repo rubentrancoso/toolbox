@@ -1,4 +1,4 @@
-package toolbox.CyclicRotation;
+package toolbox.lesson2.arrays.CyclicRotation;
 
 import static org.junit.Assert.*;
 
@@ -8,7 +8,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import toolbox.CyclicRotation.Solution;
+import toolbox.lesson2.arrays.CyclicRotation.Solution;
 
 public class SolutionTest {
 

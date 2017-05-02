@@ -1,4 +1,4 @@
-package toolbox.CyclicRotation;
+package toolbox.lesson2.arrays.CyclicRotation;
 
 public class Solution {
 	

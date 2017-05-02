@@ -1,14 +1,19 @@
-package toolbox.PermMissingElem;
+package toolbox.OddOccurrencesInArray;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.fail;
 
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Test;
 
-public class Test {
+import toolbox.OddOccurrencesInArray.Solution;
 
+public class SolutionTest {
+
+	private Solution solution;
+	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
@@ -19,13 +24,14 @@ public class Test {
 
 	@Before
 	public void setUp() throws Exception {
+		solution = new Solution();
 	}
 
 	@After
 	public void tearDown() throws Exception {
 	}
 
-	@org.junit.Test
+	@Test
 	public void testSolution() {
 		fail("Not yet implemented"); // TODO
 	}

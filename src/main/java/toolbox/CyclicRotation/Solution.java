@@ -1,7 +1,14 @@
 package toolbox.CyclicRotation;
 
 public class Solution {
-    public int solution(int N) {
-		return N;
+	
+	// https://codility.com/demo/results/training53KKZB-3KX/
+	public int[] solution(int[] A, int K) {
+		int size = A.length;
+		int[] b = new int[size];
+		for(int i=0;i<size;i++) {
+			b[(i+K)%size] = A[i];
+		}
+		return b;
     }
 }

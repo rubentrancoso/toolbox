@@ -6,6 +6,7 @@ import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Test;
 
 public class SolutionTest {
 
@@ -28,7 +29,7 @@ public class SolutionTest {
 	public void tearDown() throws Exception {
 	}
 
-	@org.junit.Test
+	@Test
 	public void testSolution() {
 		int N, result;
 		N = Integer.parseInt("0", 2);

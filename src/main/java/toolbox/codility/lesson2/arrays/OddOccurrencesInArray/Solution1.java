@@ -1,11 +1,8 @@
 package toolbox.codility.lesson2.arrays.OddOccurrencesInArray;
 
-import java.util.Arrays;
-
 public class Solution1 {
-	// https://codility.com/demo/results/trainingHJEWDC-Y9H/
+	// https://codility.com/demo/results/trainingJ2AGUF-FQR/
 	public int solution(int[] a) {
-		Arrays.sort(a);
 		int number = 0;
 		for(int i=0;i<a.length;i++) {
 			number ^= a[i];

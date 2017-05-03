@@ -8,7 +8,12 @@ package toolbox.codility.lesson3.timecomplexity.FrogJmp;
 // expected worst-case space complexity is O(1).
 
 public class Solution {
-    public int solution(int N) {
-		return N;
+	// https://codility.com/demo/results/trainingZZ79PV-J7X/
+    public int solution(int X, int Y, int D) {
+    	int delta = Y-X;
+    	int intPart = delta/D;
+    	if(delta%D != 0)
+    		intPart++;
+        return intPart;
     }
 }

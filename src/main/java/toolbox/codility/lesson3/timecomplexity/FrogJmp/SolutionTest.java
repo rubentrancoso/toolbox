@@ -1,6 +1,6 @@
 package toolbox.codility.lesson3.timecomplexity.FrogJmp;
 
-import static org.junit.Assert.fail;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -11,7 +11,7 @@ import org.junit.Test;
 public class SolutionTest {
 
 	private Solution solution;
-	
+
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
@@ -30,8 +30,12 @@ public class SolutionTest {
 	}
 
 	@Test
-	public void testSolution() {
-		fail("Not yet implemented"); // TODO
+	public void testSolution0() {
+		int X = 10;
+		int Y = 85;
+		int D = 30;
+		int result = solution.solution(X,Y,D);
+		assertEquals(3, result);
 	}
 
 }

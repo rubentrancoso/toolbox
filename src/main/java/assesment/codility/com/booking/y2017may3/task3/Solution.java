@@ -18,22 +18,29 @@ public class Solution {
 
 		for (int i = 0; i < lineSize; i++) {
 			// try to put people inside
+			// (usedCapacity + 1) <= capacity : there's space for one person
+			// (usedWeight + A[i]) <= maxWeigh : the persons weight is ok to sum
 			if ((usedCapacity + 1) <= capacity && (usedWeight + A[i]) <= maxWeight) {
 				usedCapacity++;
 				usedWeight += A[i];
-				stops[B[i]] = 1;
+				if(stops[B[i]]==0) {
+					stops[B[i]] = 1;
+					totalStops++;
+				}
 
 				// look ahead
+				// i == lineSize-1 : this person is inside and is the last one, so we lift it
+				// !((usedCapacity + 1) <= capacity && (usedWeight + A[i + 1]) <= maxWeight) : no left space or weight
 				if (i == lineSize-1 || !((usedCapacity + 1) <= capacity && (usedWeight + A[i + 1]) <= maxWeight)) {
 					// free elevator
 					usedCapacity = 0;
 					usedWeight = 0;
 					// floor stop
 					totalStops += 1;
-					for (int j = 0; j < stops.length; j++) {
-						totalStops += stops[j];
+					for (int j = 0; j < floors; j++) {
+						stops[j] = 0;
 					}
-					stops = new int[floors];
+					//stops = new int[floors];
 				}
 			}
 		}

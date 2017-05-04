@@ -1,7 +1,7 @@
 package toolbox.codility.lesson3.timecomplexity.TapeEquilibrium;
 
 public class Solution {
-	// https://codility.com/demo/results/training8AUP4Y-STJ/
+	// https://codility.com/demo/results/training57YN3Y-U8A/
 	public int solution(int[] A) {
 		int total = 0;
 		int size = A.length;

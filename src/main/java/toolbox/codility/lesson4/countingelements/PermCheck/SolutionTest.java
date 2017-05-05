@@ -35,5 +35,12 @@ public class SolutionTest {
 		int result = solution.solution(A);
 		assertEquals(1,result);
 	}
+	
+	@Test
+	public void testSolution0() {
+		int[] A = {1,4,1};
+		int result = solution.solution(A);
+		assertEquals(0,result);
+	}	
 
 }

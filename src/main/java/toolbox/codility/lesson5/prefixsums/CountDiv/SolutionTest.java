@@ -1,6 +1,6 @@
 package toolbox.codility.lesson5.prefixsums.CountDiv;
 
-import static org.junit.Assert.fail;
+import static org.junit.Assert.*;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -11,7 +11,7 @@ import org.junit.Test;
 public class SolutionTest {
 
 	private Solution solution;
-	
+
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
@@ -31,7 +31,11 @@ public class SolutionTest {
 
 	@Test
 	public void testSolution() {
-		fail("Not yet implemented"); // TODO
+		int A = 6;
+		int B = 11;
+		int K = 2;
+		int result = solution.solution(A, B, K);
+		assertEquals(3, result);
 	}
 
 }

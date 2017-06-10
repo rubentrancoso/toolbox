@@ -1,8 +1,10 @@
-package coursera.assignment;
+package coursera.datastructuresandalgorithms.assignment;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import coursera.datastructuresandalgorithms.assignment.PA011isFractionalKnapsack;
 
 public class PA011isFractionalKnapsackTest {
 

@@ -1,7 +1,10 @@
-package coursera.assignment;
+package coursera.datastructuresandalgorithms.assignment;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import coursera.datastructuresandalgorithms.assignment.PA007isFibonacciHuge;
+import coursera.datastructuresandalgorithms.assignment.PA010isChange;
 
 
 public class PA010isChangeTest {

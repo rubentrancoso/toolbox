@@ -1,4 +1,4 @@
-package coursera.assignment;
+package coursera.datastructuresandalgorithms.assignment;
 
 import java.util.*;
 

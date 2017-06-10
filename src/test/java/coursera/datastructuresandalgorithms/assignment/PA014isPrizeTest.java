@@ -1,5 +1,8 @@
-package coursera.assignment;
+package coursera.datastructuresandalgorithms.assignment;
 import org.junit.Test;
+
+import coursera.datastructuresandalgorithms.assignment.PA014isPrize;
+
 import static org.junit.Assert.assertArrayEquals;
 
 import java.util.Arrays;

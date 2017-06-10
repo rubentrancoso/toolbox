@@ -1,4 +1,4 @@
-package coursera.assignment;
+package coursera.datastructuresandalgorithms.assignment;
 
 import java.math.BigInteger;
 import java.util.Scanner;

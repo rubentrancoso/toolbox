@@ -1,6 +1,9 @@
-package coursera.assignment;
+package coursera.datastructuresandalgorithms.assignment;
 
 import org.junit.Test;
+
+import coursera.datastructuresandalgorithms.assignment.PA015isMaximizeSalary;
+
 import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;

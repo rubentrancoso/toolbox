@@ -1,7 +1,9 @@
-package coursera.assignment;
+package coursera.datastructuresandalgorithms.assignment;
 import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Test;
+
+import coursera.datastructuresandalgorithms.assignment.PA016isBinarySearch;
 
 public class PA016isBinarySearchTest {
 
